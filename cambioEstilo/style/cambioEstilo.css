@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/fondo-pattern.jpg);
+    background-size: 20%;
+}
+
+span {
+    font-size: 1.4em;
+}
+
+button {
+    margin-right: 10px;
+    width: 70px;
+    height: 30px;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+#tamanoletra {
+    font-weight: 700;
+    background-color: red;
+    height: 32px;
+}
+
+.container {
+    border: 7px dashed black;
+    border-radius: 20px;
+    width: 70%;
+    height: 680px;
+    background-color: rgba(176, 94, 39, 0.8);
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.container h1 {
+    margin: 30px;
+    font-size: 2.6em;
+    text-decoration: underline;
+}
+
+.container p {
+    font-size: 1.3em;
+    margin: 10px;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.container h2 {
+    font-weight: 600;
+}

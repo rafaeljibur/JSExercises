@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 86.1vh;
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    width: 400px;
+    background-color: #F0A500;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 5px 5px 8px black;
+}
+
+.form p {
+    font-size: 1.2em;
+}
+
+.form h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    width: 100%;
+    background: #1B1A17;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.custom-checkbox {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.custom-checkbox .checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 3px;
+    background: white url(../img/checkbox_png.png) center/1250% no-repeat;
+    transition: background-size 0.15s cubic-bezier(0.7, 0, 0.18, 1.24)
+}
+
+.custom-checkbox input:checked + .checkmark {
+    background-size: 60%;
+    transition: background-size 0.15s cubic-bezier(0.7, 0, 0.18, 1.24)
+}
+
+.custom-checkbox input {
+    display: none;
+    
+}
+
+#boton {
+    width: 100%;
+    background: #E45826;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#resultado {
+    font-weight: 700;
+    text-align: center;
+}

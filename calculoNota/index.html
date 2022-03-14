@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota final de Asignatura</title>
+    <link rel="stylesheet" href="./style/calculoNota.css">
+    <link rel="shortcut icon" href="./img/favicon_calculo_nota.png" type="image/x-icon">
+    <script src="./js/calculoNota.js"></script>
+</head>
+<body>
+    <section class="form">
+        <form action="">
+            <h1>Cálculo de la nota final de una asignatura</h1>
+            <input type="text" id="wordpress" class="inputs" placeholder="Nota Wordpress" required>
+            <input type="text" id="js" class="inputs" placeholder="Nota JavaScript" required><br>
+            <label class="custom-checkbox">
+                <input type="checkbox" name="trabajowp" id="trabajowp">
+                <span class="checkmark"></span>
+            </label>
+            <label for="trabajowp">Trabajo extra de Wordpress</label><br><br>
+            <label class="custom-checkbox">
+                <input type="checkbox" name="trabajojs" id="trabajojs">
+                <span class="checkmark"></span>
+            </label>
+            <label for="trabajojs">Trabajo extra de Javascript</label>
+        </form>
+        <!-- activación del javascript -->
+        <button id="boton" onclick="calculoNota()">¡Calcula la nota!</button>
+        <!-- aquí saldrá el resultado -->
+        <p id="resultado"></p>
+        <p id="indicacion"></p>
+
+    </section>
+    <div id="waves">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </div>
+</body>
+</html>
